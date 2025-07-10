@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <table border="1">
+    <tr>
+        <td colspan="4">
+            <input type="text" id="inputBox" value="0" readonly >
+
+        </td>
+
+    </tr>
+
+    <tr>
+        <td onclick="digitBtnPressed('7')">7</td>
+        <td onclick="digitBtnPressed('8')">8 </td>
+        <td onclick="digitBtnPressed('9')">9</td>
+    </tr>
+
+    <tr>
+        <td onclick="digitBtnPressed('4')">4</td>
+        <td onclick="digitBtnPressed('5')">5</td>
+        <td onclick="digitBtnPressed('6')">6</td>
+
+    </tr>
+
+    <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    </tr>
+    <tr>
+       <td>0</td>
+       <td>+</td>
+       <td>-</td>    
+    </tr>
+
+<tr>
+    <td onclick="clearInput()">AC</td>
+    <td onclick="InputResults()">=</td>
+    <td onclick="InputResults()">x</td>
+</tr>
+
+    </table>
+
+<script>
+    function digitBtnPressed(value){
+        const inputBox = document.getElementById("inputBox");
+       if (inputBox.value === "0") {
+         inputBox.value = value
+       }else{
+        inputBox.value += value;
+       }
+    }
+
+    function clearInput() {
+         document.getElementById("inputBox").value ="";
+
+    }
+
+
+    function InputResults() { 
+        try
+           { const expression =document.getElementById("inputBox").value.replace("=","*",);
+
+        }
+
+        
+    }
+        
+    
+</script>
+</body>
+
+
+
+
+
+
+
+
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: antiquewhite;
+}
+
+.about-header {
+    text-align: center;
+    background-color:rgb(79, 49, 7);
+    color:antiquewhite;
+    padding: 20px;
+}
+
+.about-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.about-header img {
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.about-section {
+    background-image: url(../backgrounds/lucas-andrade-3Uj0GwVmOeY-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 30px;
+}
+
+.nc-section {
+    background-color: none;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nc-section p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color:rgb(79, 49, 7);
+    padding: 15px 0;
+}
+
+nav a {
+    color:antiquewhite;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: burlywood;
+}
+
+
+
